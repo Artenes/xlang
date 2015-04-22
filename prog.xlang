@@ -1,0 +1,30 @@
+class Teste {
+    
+    bool cat;
+
+    public Teste () {
+        cat = 4 != 6;
+        cat = 5 > 1;
+        cat = 6 >= 6;
+        cat = 4 < 9;
+        cat = 3 <= 3;
+    }
+
+    private method (bool dog) {
+        dog = !dog;
+        dog = dog && cat;
+        dog = dog || cat;
+    }
+
+    private otherMethod (int bird){
+        bird = bird - bird;
+        bird = bird + bird;
+        bird = bird * bird;
+        bird = bird / bird;
+    }   
+
+    private anotherMethod(int snake){
+        snake = [((snake + snake) - snake) / snake];
+    }
+
+}
